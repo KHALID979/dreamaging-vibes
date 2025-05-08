@@ -2,144 +2,138 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dreamaging Vibes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dreamaging Vibes - Personal Blog</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #fffdf9;
-      color: #333;
-    }
-
-    header {
-      background-color: #f9f4ef;
-      padding: 20px;
-      text-align: center;
-    }
-
-    header img {
-      height: 80px;
-      margin-bottom: 10px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-    }
-
-    header p {
-      margin: 5px 0 0;
-      font-size: 18px;
-      color: #666;
-    }
-
-    nav {
-      background-color: #4a4e69;
-      padding: 10px 0;
-    }
-
-    nav ul {
-      list-style-type: none;
       margin: 0;
       padding: 0;
+      background-color: #FDFDFD;
+      color: #222;
+    }
+    nav {
+      background-color: #2D6A4F;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
       display: flex;
       justify-content: center;
+      margin: 0;
+      padding: 0;
     }
-
     nav ul li {
       margin: 0 15px;
     }
-
     nav ul li a {
+      color: white;
       text-decoration: none;
-      color: #fff;
       font-size: 18px;
     }
-
-    main {
-      padding: 30px 15px;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    article {
-      margin-bottom: 40px;
-    }
-
-    article h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-      color: #2a2a2a;
-    }
-
-    article p {
-      font-size: 16px;
-      line-height: 1.6;
-    }
-
-    footer {
-      background-color: #22223b;
-      color: white;
+    header {
       text-align: center;
-      padding: 15px;
+      padding: 30px 10px;
+      background-color: #E9C46A;
     }
-
-    @media (max-width: 600px) {
-      header h1 {
+    header h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+    .blog-post {
+      margin: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .blog-post h2 {
+      font-size: 28px;
+      color: #2D6A4F;
+    }
+    .blog-post p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #444;
+    }
+    footer {
+      background-color: #001F54;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      .blog-post h2 {
         font-size: 24px;
       }
-
-      nav ul li a {
+      .blog-post p {
         font-size: 16px;
-      }
-
-      article h2 {
-        font-size: 20px;
-      }
-
-      article p {
-        font-size: 15px;
       }
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://raw.githubusercontent.com/KHALID979/dreamaging-vibes/main/%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.jpg" alt="Dreamaging Vibes Logo">
-    <h1>Dreamaging Vibes</h1>
-    <p>Your daily dose of inspiration & lifestyle content</p>
-  </header>
-
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#articles">Articles</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://www.facebook.com/sfadhrvagn" target="_blank">Facebook</a></li>
     </ul>
   </nav>
+  
+  <header>
+    <h1>Welcome to Dreamaging Vibes</h1>
+  </header>
 
-  <main>
-    <section id="articles">
-      <article>
-        <h2>🌿 Embrace the Beauty of Slow Living</h2>
-        <p>Slow living is all about mindfulness and simplicity. In this post, we’ll explore how to enjoy life’s small moments and avoid burnout in a fast-paced world...</p>
-      </article>
+  <!-- Blog Section -->
+  <section id="blog">
+    <div class="blog-post">
+      <h2>🌟 সফলতা আসে প্রতিদিনের সংগ্রাম থেকে</h2>
+      <p>
+        সফলতা রাতারাতি আসে না, এটা ধৈর্য, পরিশ্রম আর আত্মবিশ্বাসের ফল।<br><br>
 
-      <article>
-        <h2>✨ Top 5 Self-Care Rituals for a Peaceful Mind</h2>
-        <p>From journaling to herbal teas, discover easy self-care habits to include in your daily routine to improve your mental well-being and emotional balance...</p>
-      </article>
-    </section>
+        সফল মানুষদের দেখে আমরা বলি—“ভাগ্য ভালো ছিল”, “সে তো আগে থেকেই ট্যালেন্টেড ছিল।”<br>
+        কিন্তু আমরা খুব কমই দেখি, তারা কতটা ত্যাগ স্বীকার করেছে, কতটা না-পাওয়ার ভিতর দিয়ে হেঁটেছে।<br><br>
 
-    <section id="about">
-      <h2>About Dreamaging Vibes</h2>
-      <p>Dreamaging Vibes is a blog dedicated to bringing you lifestyle inspiration, wellness tips, and positive energy for your daily life. Join us on a journey to a more mindful and magical way of living!</p>
-    </section>
-  </main>
+        প্রতিদিন একটু একটু করে নিজেকে তৈরি করা,<br>
+        যেখানে সবাই থেমে যায়, সেখানে একটু বেশি চেষ্টায় লেগে থাকা—<br>
+        এইসব ছোট ছোট সংগ্রামই একদিন বড় ফল দেয়।<br><br>
+
+        সফলতা মানে কেবল বড় কিছু পাওয়া নয়,<br>
+        সফলতা মানে—নিজের ভয়কে জয় করা,<br>
+        হার মানার বদলে আরেকবার উঠে দাঁড়ানো,<br>
+        নিজের চেষ্টাকে ছোট মনে না করে তার পেছনে লেগে থাকা।<br><br>
+
+        সফল মানুষরা একদিনে তৈরি হয় না—<br>
+        তাদের গড়ে তোলে প্রতিদিনের অধ্যবসায়, পরিশ্রম আর কখনও না হাল ছেড়ে দেওয়ার মানসিকতা।<br><br>
+
+        তাই নিজেকে সময় দিন।<br>
+        তুলনা নয়, নিজেকে নিজেই হারান।<br>
+        তুমি যদি নিজের উন্নতির পথে থাকো,<br>
+        তবে তুমি ইতোমধ্যেই সফল।<br>
+        নিজের গল্প নিজেই গড়ো।
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Dreamaging Vibes. All rights reserved.</p>
+    <p>© 2025 Dreamaging Vibes. All rights reserved.</p>
   </footer>
 </body>
 </html>
