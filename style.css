@@ -1,50 +1,126 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dreamaging Vibes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffefc;
+      color: #333;
+    }
 
-header {
-  background: #3a86ff;
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
-}
+    header {
+      background-color: #d6e4e5;
+      padding: 20px;
+      text-align: center;
+    }
 
-nav {
-  background: #023e8a;
-  padding: 1rem;
-  text-align: center;
-}
+    header img {
+      max-width: 120px;
+      border-radius: 10px;
+    }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 26px;
+    }
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
+    header p {
+      font-size: 16px;
+      color: #555;
+    }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #168aad;
+    }
 
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
+    nav a {
+      padding: 10px 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
 
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-}
+    nav a:hover {
+      background-color: #1e6091;
+    }
+
+    .content {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .blog-post {
+      background: #f1f1f1;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .blog-post h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      background-color: #003049;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 22px;
+      }
+
+      nav a {
+        font-size: 14px;
+        padding: 8px 10px;
+      }
+
+      .blog-post h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://raw.githubusercontent.com/KHALID979/dreamaging-vibes/main/%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.jpg" alt="Dreamaging Vibes Logo">
+    <h1>Dreamaging Vibes</h1>
+    <p>Inspiration, lifestyle & wellness through words</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="content">
+    <div class="blog-post">
+      <h2>🌿 Welcome to Dreamaging Vibes</h2>
+      <p>This is your first blog post. Start writing and inspiring the world!</p>
+    </div>
+    <div class="blog-post">
+      <h2>🧠 Mindfulness: A Gentle Start</h2>
+      <p>Learn how to begin your mindfulness journey with simple daily habits.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dreamaging Vibes. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
